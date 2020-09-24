@@ -3,7 +3,7 @@ defaultContentLanguage = "en"
 hasCJKLanguage = true
 languageCode = "en"
 paginate = 4
-theme = "hugo-theme-texify"
+theme = "../.."
 title = "TeXify"
 
 disqusShortname = ""
@@ -39,5 +39,5 @@ name = "author"
   custom_css = []
   description = "an example site for hugo theme TeXify"
   enable_mathjax = true
-  footnote = "Follow me on <a class=link href=https://github.com/queensferryme>GitHub</a>, <a class=link href=https://twitter.com/queensferryme>Twitter</a> or <a class=link href=/index.xml>RSS</a> | <a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh target=_blank rel=noopener>CC BY-NC-SA 4.0</a>"
+  footnote = "Follow me on <a class=link href=https://github.com/francescotonini>GitHub</a> or <a class=link href=https://twitter.com/toninifrancesco>Twitter</a> | <a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed target=_blank rel=noopener>CC BY-NC-SA 4.0</a>"
   keywords = ["hugo", "latex", "theme"]

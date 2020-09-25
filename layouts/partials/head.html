@@ -21,6 +21,11 @@
 <meta name="keywords" content="{{ range $key, $value := .Site.Params.keywords }} {{ $value }} {{ end }}">
 {{ end }}
 
+<!-- og -->
+{{ template "_internal/opengraph.html" . }}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:locale" content="{{ .Site.LanguageCode }}">
+
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ .Title }}" />

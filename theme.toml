@@ -1,8 +1,8 @@
 name = "TeXify"
 license = "MIT"
-licenselink = "https://github.com/francescotonini/hugo-theme-texify/blob/master/LICENSE"
+licenselink = "https://github.com/francescotonini/texify/blob/master/LICENSE"
 description = "A minimal, latex-style hugo theme for personal blogging"
-homepage = "https://github.com/francescotonini/hugo-theme-texify/"
+homepage = "https://github.com/francescotonini/texify"
 tags = ["blog", "clean", "latex", "light", "minimal", "responsive", "simple"]
 features = ["blog"]
 min_version = "0.60"

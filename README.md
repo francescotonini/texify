@@ -1,12 +1,12 @@
 # TeXify
-
 A minimal, latex-style hugo theme for personal blogging.
 
-![screenshot](https://raw.githubusercontent.com/queensferryme/hugo-theme-texify/master/images/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/francescotonini/texify/master/images/screenshot.png)
 
 ## Features
 
 - [Disqus](https://disqus.com/) & Google Analytics included
+- OpenGraph and Twitter integration
 - Responsive design for mobile devices
 - Customize the site with your own styles
 - Math equations powered by [MathJax](https://www.mathjax.org/)
@@ -15,7 +15,7 @@ A minimal, latex-style hugo theme for personal blogging.
 ## Usage
 
 ```bash
-git clone https://github.com/queensferryme/hugo-theme-texify.git themes/hugo-theme-texify
+git clone https://github.com/francescotonini/texify.git themes/texify
 ```
 
 See `exampleSite/config.toml` for an example configuration.
@@ -48,3 +48,4 @@ The design of this theme is inspired by the following softwares:
 - https://github.com/vincentdoerig/latex-css
 - https://github.com/7ma7X/HugoTeX
 - https://theme.typora.io/theme/Academic/
+- https://github.com/queensferryme/hugo-theme-texify.git

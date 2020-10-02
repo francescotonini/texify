@@ -1,7 +1,5 @@
 baseURL = "https://example.com/"
-defaultContentLanguage = "en"
-hasCJKLanguage = true
-languageCode = "en"
+languageCode = "en-US"
 paginate = 4
 theme = "../.."
 title = "TeXify"

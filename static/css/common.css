@@ -84,7 +84,6 @@ time {
 }
 
 #wrapper {
-    background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
     font-family: 'Latin Modern Roman', 'Times New Roman', serif;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="{{ .Site.LanguageCode }}">
 
 <head>
   {{ partial "head.html" . }}
@@ -31,12 +31,12 @@
       </div>
       <div class="paginator">
         {{ if .PrevInSection }}
-        <a class="link" href="{{ .PrevInSection.Permalink }}">← prev</a>
+        <a class="link" href="{{ .PrevInSection.Permalink }}">previous</a>
         {{ else }}
         <a></a>
         {{ end }}
         {{ if .NextInSection }}
-        <a class="link" href="{{ .NextInSection.Permalink }}">next →</a>
+        <a class="link" href="{{ .NextInSection.Permalink }}">next</a>
         {{ else }}
         <a></a>
         {{ end }}

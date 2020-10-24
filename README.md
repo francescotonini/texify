@@ -33,12 +33,7 @@ Note that for Simplified Chinese users, it is generally recommended to use [Noto
 ## Development
 
 ```bash
-hugo server \
-    --buildDrafts \
-    --config="exampleSite/config.toml" \
-    --contentDir="exampleSite/content" \
-    --disableFastRender \
-    --themesDir=".."
+hugo serve -D
 ```
 
 ## Acknowledgement
